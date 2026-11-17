@@ -1,1 +1,3 @@
 DocumentosNonecesarios/
+.venv/
+__pycache__/

@@ -1,0 +1,3 @@
+-r requerimientos.txt
+pytest
+httpx2
