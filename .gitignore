@@ -1,3 +1,15 @@
-DocumentosNonecesarios/
+# Entorno virtual de Python
 .venv/
+
+# Caché de Python y pytest
 __pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Documentación auxiliar
+DocumentosNonecesarios/
+
+# Reportes generados por los analizadores
+Backend/preprocesos/*Reporte*.json
+Backend/preprocesos/*Reporte*.txt
+Backend/preprocesos/*.png
