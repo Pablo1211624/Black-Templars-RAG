@@ -15,7 +15,17 @@ from app.Procesamiento.ExtractorArmas import ExtraerArmas
 
 from app.Procesamiento.ExtractorSecciones import ExtraerSecciones
 
+from app.Procesamiento.ExtractorEquipamiento import ExtraerEquipamientoInicial
 
+from app.Procesamiento.ExtractorOpcionesEquipo import ExtraerOpcionesEquipo
+
+from app.Procesamiento.InterpretadorOpciones import InterpretarOpciones
+
+from app.Procesamiento.InterpretadorRestricciones import InterpretarRestricciones
+
+from app.Procesamiento.InterpretadorReglasCompuestas import (
+    InterpretarReglasCompuestas
+)
 
 def ExtraerCaracteristicas(Texto):
     """Extrae características estándar y variantes de orden."""
@@ -235,6 +245,26 @@ def ExtraerFichas(Documento, Grupos, NombreDocumento):
             Grupo["Unidad"]
         )
 
+        OpcionesEquipo, RevisionOpciones = (
+            ExtraerOpcionesEquipo(Secciones)
+        )
+
+        InterpretacionOpciones, RevisionSemantica = (
+            InterpretarOpciones(OpcionesEquipo)
+        )
+
+        InterpretacionRestricciones = InterpretarRestricciones(
+            InterpretacionOpciones["Pendientes"]
+        )
+
+        InterpretacionCompuestas = InterpretarReglasCompuestas(
+            InterpretacionRestricciones["Pendientes"]
+        )
+
+        EquipamientoInicial, RevisionEquipamiento = (
+            ExtraerEquipamientoInicial(Secciones)
+        )
+
         TextoCompleto = "\n".join(
             Pagina["Texto"]
             for Pagina in Paginas
@@ -276,9 +306,19 @@ def ExtraerFichas(Documento, Grupos, NombreDocumento):
             "Documento": NombreDocumento,
             "EsLegends": EsLegends,
             "Armas": Armas,
+            "InterpretacionOpciones": InterpretacionOpciones,
+            "RequiereRevisionSemanticaOpciones": RevisionSemantica,
             "RequiereRevisionArmas": RevisionArmas,
+            "OpcionesEquipo": OpcionesEquipo,
+            "RequiereRevisionOpciones": RevisionOpciones,
+            "InterpretacionRestricciones": InterpretacionRestricciones,
+            "RequiereRevisionRestricciones": bool(InterpretacionRestricciones["Pendientes"]),
+            "InterpretacionCompuestas": InterpretacionCompuestas,
+            "RequiereRevisionFinalOpciones": (RevisionOpciones or bool(InterpretacionCompuestas["Pendientes"])),
             "Paginas": Paginas,
             "Caracteristicas": Caracteristicas,
+            "EquipamientoInicial": EquipamientoInicial,
+            "RequiereRevisionEquipamiento": RevisionEquipamiento,
             "Secciones": Secciones,
             "RequiereRevisionCaracteristicas": not bool(Caracteristicas),
             "RequiereRevisionModelos": (

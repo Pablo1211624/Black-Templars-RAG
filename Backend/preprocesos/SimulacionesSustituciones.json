@@ -1,0 +1,180 @@
+{
+  "KRATOS_dos_reglas": {
+    "Unidad": "KRATOS",
+    "Estado": "Completada",
+    "InventarioInicial": {
+      "armoured tracks": 1,
+      "autocannon": 1,
+      "heavy bolters": 4,
+      "kratos battle cannon": 1
+    },
+    "InventarioFinal": {
+      "armoured tracks": 1,
+      "autocannon": 3,
+      "kratos battle cannon": 1,
+      "volkite culverins": 2
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "Fuente": "Restricciones",
+        "IndiceRegla": 0,
+        "IndiceAlternativa": 0,
+        "ReglaOriginal": "2 of this model’s heavy bolters can be replaced with one of the following:",
+        "AlternativaElegida": "2 autocannons",
+        "Consumido": {
+          "heavy bolters": 2
+        },
+        "Anadido": {
+          "autocannon": 2
+        },
+        "InventarioTrasPaso": {
+          "armoured tracks": 1,
+          "autocannon": 3,
+          "heavy bolters": 2,
+          "kratos battle cannon": 1
+        }
+      },
+      {
+        "Paso": 2,
+        "Estado": "Aplicado",
+        "Fuente": "Restricciones",
+        "IndiceRegla": 1,
+        "IndiceAlternativa": 2,
+        "ReglaOriginal": "2 of this model’s heavy bolters can be replaced with one of the following:",
+        "AlternativaElegida": "2 volkite culverins",
+        "Consumido": {
+          "heavy bolters": 2
+        },
+        "Anadido": {
+          "volkite culverins": 2
+        },
+        "InventarioTrasPaso": {
+          "armoured tracks": 1,
+          "autocannon": 3,
+          "kratos battle cannon": 1,
+          "volkite culverins": 2
+        }
+      }
+    ],
+    "ReversionAplicada": false,
+    "Alcance": "Solo sustituciones de This model; no valida legalidad"
+  },
+  "RELIC_CONTEMPTOR_encadenada": {
+    "Unidad": "RELIC CONTEMPTOR DREADNOUGHT",
+    "Estado": "Completada",
+    "InventarioInicial": {
+      "armoured feet": 1,
+      "heavy plasma cannons": 2
+    },
+    "InventarioFinal": {
+      "armoured feet": 1,
+      "dreadnought chainfist": 1,
+      "graviton blaster": 1,
+      "heavy plasma cannons": 1
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "Fuente": "Restricciones",
+        "IndiceRegla": 0,
+        "IndiceAlternativa": 7,
+        "ReglaOriginal": "Each of this model’s heavy plasma cannons can be replaced with one of the following:",
+        "AlternativaElegida": "1 Dreadnought chainfist and 1 combi-bolter",
+        "Consumido": {
+          "heavy plasma cannons": 1
+        },
+        "Anadido": {
+          "dreadnought chainfist": 1,
+          "combi-bolter": 1
+        },
+        "InventarioTrasPaso": {
+          "armoured feet": 1,
+          "combi-bolter": 1,
+          "dreadnought chainfist": 1,
+          "heavy plasma cannons": 1
+        }
+      },
+      {
+        "Paso": 2,
+        "Estado": "Aplicado",
+        "Fuente": "Restricciones",
+        "IndiceRegla": 1,
+        "IndiceAlternativa": 0,
+        "ReglaOriginal": "Each of this model’s combi-bolters can be replaced with one of the following:",
+        "AlternativaElegida": "1 graviton blaster",
+        "Consumido": {
+          "combi-bolter": 1
+        },
+        "Anadido": {
+          "graviton blaster": 1
+        },
+        "InventarioTrasPaso": {
+          "armoured feet": 1,
+          "dreadnought chainfist": 1,
+          "graviton blaster": 1,
+          "heavy plasma cannons": 1
+        }
+      }
+    ],
+    "ReversionAplicada": false,
+    "Alcance": "Solo sustituciones de This model; no valida legalidad"
+  },
+  "IRONCLAD_origen_compartido": {
+    "Unidad": "IRONCLAD DREADNOUGHT",
+    "Estado": "Rechazada",
+    "InventarioInicial": {
+      "dreadnought combat weapon": 1,
+      "meltagun": 1,
+      "seismic hammer": 1,
+      "storm bolter": 1
+    },
+    "InventarioFinal": {
+      "dreadnought combat weapon": 1,
+      "meltagun": 1,
+      "seismic hammer": 1,
+      "storm bolter": 1
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "Fuente": "Opciones",
+        "IndiceRegla": 1,
+        "IndiceAlternativa": 0,
+        "ReglaOriginal": "This model’s Dreadnought combat weapon and storm bolter can be replaced with 1 hurricane bolter.",
+        "AlternativaElegida": "1 hurricane bolter",
+        "Consumido": {
+          "dreadnought combat weapon": 1,
+          "storm bolter": 1
+        },
+        "Anadido": {
+          "hurricane bolter": 1
+        },
+        "InventarioTrasPaso": {
+          "hurricane bolter": 1,
+          "meltagun": 1,
+          "seismic hammer": 1
+        }
+      },
+      {
+        "Paso": 2,
+        "Estado": "Rechazado",
+        "Fuente": "Opciones",
+        "IndiceRegla": 2,
+        "IndiceAlternativa": 0,
+        "Faltantes": {
+          "storm bolter": {
+            "Necesario": 1,
+            "Disponible": 0
+          }
+        },
+        "Motivo": "OrigenInsuficiente"
+      }
+    ],
+    "ReversionAplicada": true,
+    "Alcance": "Solo sustituciones de This model; no valida legalidad"
+  }
+}

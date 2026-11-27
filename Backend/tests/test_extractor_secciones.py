@@ -126,3 +126,67 @@ def test_unidad_sin_opciones_de_equipo():
     assert Resultado["OpcionesEquipo"] == []
     assert Resultado["Habilidades"][0]["Pagina"] == 53
     assert Resultado["Composicion"][0]["Pagina"] == 54
+
+
+def test_danio_no_incluye_tabla_estadisticas():
+    Paginas = [{
+        "Pagina": 57,
+        "Texto": (
+            "DAMAGED: 1-10 WOUNDS REMAINING\n"
+            "Subtract 1 from the Hit roll.\n"
+            "T\nSV\nW\nLD\nOC\n"
+            "12\n2+\n30\n6+\n0\n20\"\nM\n"
+        ),
+    }]
+
+    Resultado = ExtraerSecciones(
+        Paginas, "THUNDERHAWK GUNSHIP"
+    )
+
+    assert Resultado["ReglasDanio"][0]["Texto"] == (
+        "Subtract 1 from the Hit roll."
+    )
+
+
+def test_composicion_termina_ante_regla_adicional():
+    Paginas = [{
+        "Pagina": 112,
+        "Texto": (
+            "UNIT COMPOSITION\n"
+            "■1 Sergeant Chronus\n"
+            "This model is equipped with: bolt pistol.\n"
+            "TANK COMMANDER\n"
+            "Sergeant Chronus must start embarked.\n"
+        ),
+    }]
+
+    Resultado = ExtraerSecciones(
+        Paginas, "SERGEANT CHRONUS"
+    )
+
+    Texto = Resultado["Composicion"][0]["Texto"]
+
+    assert "bolt pistol" in Texto
+    assert "TANK COMMANDER" not in Texto
+    assert "must start embarked" not in Texto
+
+
+def test_danio_no_incluye_nota_de_armamento():
+    Paginas = [{
+        "Pagina": 196,
+        "Texto": (
+            "DAMAGED: 1-6 WOUNDS REMAINING\n"
+            "Subtract 1 from the Hit roll.\n"
+            "Before selecting targets with this weapon, "
+            "select one of its profiles.\n"
+            "T\nSV\nW\nLD\nOC\n"
+        ),
+    }]
+
+    Resultado = ExtraerSecciones(
+        Paginas, "STORM EAGLE GUNSHIP"
+    )
+
+    assert Resultado["ReglasDanio"][0]["Texto"] == (
+        "Subtract 1 from the Hit roll."
+    )

@@ -1,0 +1,662 @@
+[
+  {
+    "Unidad": "TERMINATOR ASSAULT SQUAD",
+    "Pagina": 32,
+    "ReglaOriginal": "Any number of models can each have their thunder hammer and storm shield replaced with 1 twin lightning claws.",
+    "Sujeto": "models",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Assault Terminator Sergeant",
+        "Minimo": 1,
+        "Maximo": 1,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      },
+      {
+        "Modelo": "Assault Terminators",
+        "Minimo": 4,
+        "Maximo": 9,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 10
+    }
+  },
+  {
+    "Unidad": "COMPANY VETERANS ON BIKES",
+    "Pagina": 94,
+    "ReglaOriginal": "Any number of Veteran Bikers’ bolt pistols can each be replaced with one of the following:",
+    "Sujeto": "Veteran Bikers",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincidePorFlexion",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Veteran Bikers",
+        "Minimo": 1,
+        "Maximo": 4,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincidePorFlexion",
+        "Faltantes": [],
+        "Flexiones": [
+          {
+            "NombreRegla": "bolt pistols",
+            "NombreInicial": "bolt pistol"
+          }
+        ]
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 2,
+      "Maximo": 5
+    }
+  },
+  {
+    "Unidad": "COMPANY VETERANS ON BIKES",
+    "Pagina": 94,
+    "ReglaOriginal": "Any number of Veteran Bikers’ Astartes chainswords can each be replaced with one of the following:",
+    "Sujeto": "Veteran Bikers",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincidePorFlexion",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Veteran Bikers",
+        "Minimo": 1,
+        "Maximo": 4,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincidePorFlexion",
+        "Faltantes": [],
+        "Flexiones": [
+          {
+            "NombreRegla": "astartes chainswords",
+            "NombreInicial": "astartes chainsword"
+          }
+        ]
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 2,
+      "Maximo": 5
+    }
+  },
+  {
+    "Unidad": "ASTARTES SERVITORS",
+    "Pagina": 118,
+    "ReglaOriginal": "Up to 2 models can each have their Servitor servo-arm replaced with one of the following:",
+    "Sujeto": "models",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "MaximoEnUnidad",
+      "Maximo": 2,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Astartes Servitors",
+        "Minimo": 4,
+        "Maximo": 4,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 4,
+      "Maximo": 4
+    }
+  },
+  {
+    "Unidad": "ASSAULT SQUAD",
+    "Pagina": 124,
+    "ReglaOriginal": "Up to 2 Assault Marines can each have their bolt pistol and Astartes chainsword replaced with one of the following:",
+    "Sujeto": "Assault Marines",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "MaximoEnUnidad",
+      "Maximo": 2,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Assault Marines",
+        "Minimo": 4,
+        "Maximo": 9,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 10
+    }
+  },
+  {
+    "Unidad": "ASSAULT SQUAD",
+    "Pagina": 124,
+    "ReglaOriginal": "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with 1 eviscerator.",
+    "Sujeto": "model",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "PorCadaModelos",
+      "Maximo": 1,
+      "PorCada": 5
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Assault Sergeant",
+        "Minimo": 1,
+        "Maximo": 1,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      },
+      {
+        "Modelo": "Assault Marines",
+        "Minimo": 4,
+        "Maximo": 9,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 10
+    }
+  },
+  {
+    "Unidad": "ASSAULT SQUAD WITH JUMP PACKS",
+    "Pagina": 126,
+    "ReglaOriginal": "Up to 2 Assault Marines with Jump Packs can each have their bolt pistol and Astartes chainsword replaced with one of the following:",
+    "Sujeto": "Assault Marines with Jump Packs",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "MaximoEnUnidad",
+      "Maximo": 2,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Assault Marines with Jump Packs",
+        "Minimo": 4,
+        "Maximo": 9,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 10
+    }
+  },
+  {
+    "Unidad": "ASSAULT SQUAD WITH JUMP PACKS",
+    "Pagina": 126,
+    "ReglaOriginal": "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with 1 eviscerator.",
+    "Sujeto": "model",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "PorCadaModelos",
+      "Maximo": 1,
+      "PorCada": 5
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Assault Sergeant with Jump Pack",
+        "Minimo": 1,
+        "Maximo": 1,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      },
+      {
+        "Modelo": "Assault Marines with Jump Packs",
+        "Minimo": 4,
+        "Maximo": 9,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 10
+    }
+  },
+  {
+    "Unidad": "COMMAND SQUAD",
+    "Pagina": 130,
+    "ReglaOriginal": "Any number of models can each have their bolt pistol replaced with one of the following:",
+    "Sujeto": "models",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Apothecary",
+        "Minimo": 1,
+        "Maximo": 1,
+        "DeclaracionUtilizada": "The Apothecary",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      },
+      {
+        "Modelo": "Company Ancient",
+        "Minimo": 1,
+        "Maximo": 1,
+        "DeclaracionUtilizada": "The Company Ancient",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      },
+      {
+        "Modelo": "Company Champion",
+        "Minimo": 1,
+        "Maximo": 1,
+        "DeclaracionUtilizada": "The Company Champion",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      },
+      {
+        "Modelo": "Company Veterans",
+        "Minimo": 2,
+        "Maximo": 2,
+        "DeclaracionUtilizada": "Each Company Veteran",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 5
+    }
+  },
+  {
+    "Unidad": "COMMAND SQUAD",
+    "Pagina": 130,
+    "ReglaOriginal": "Any number of Company Veterans can each have their bolt pistol replaced with 1 Astartes shield.",
+    "Sujeto": "Company Veterans",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Company Veterans",
+        "Minimo": 2,
+        "Maximo": 2,
+        "DeclaracionUtilizada": "Each Company Veteran",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 5
+    }
+  },
+  {
+    "Unidad": "COMMAND SQUAD",
+    "Pagina": 130,
+    "ReglaOriginal": "Any number of Company Veterans can each have their bolt pistol and boltgun replaced with 1 twin lightning claws.",
+    "Sujeto": "Company Veterans",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Company Veterans",
+        "Minimo": 2,
+        "Maximo": 2,
+        "DeclaracionUtilizada": "Each Company Veteran",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 5
+    }
+  },
+  {
+    "Unidad": "COMMAND SQUAD",
+    "Pagina": 130,
+    "ReglaOriginal": "Any number of Company Veterans can each have their boltgun replaced with one of the following:",
+    "Sujeto": "Company Veterans",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Company Veterans",
+        "Minimo": 2,
+        "Maximo": 2,
+        "DeclaracionUtilizada": "Each Company Veteran",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 5
+    }
+  },
+  {
+    "Unidad": "RELIC TERMINATOR SQUAD",
+    "Pagina": 132,
+    "ReglaOriginal": "For every 5 models in this unit, 1 Relic Terminator’s combi-bolter can be replaced with one of the following:",
+    "Sujeto": "Relic Terminator",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "PorCadaModelos",
+      "Maximo": 1,
+      "PorCada": 5
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Relic Terminators",
+        "Minimo": 4,
+        "Maximo": 9,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 10
+    }
+  },
+  {
+    "Unidad": "RELIC TERMINATOR SQUAD",
+    "Pagina": 132,
+    "ReglaOriginal": "For every 5 models in this unit, 1 model can be equipped with 1 grenade harness.",
+    "Sujeto": "model",
+    "TipoOperacion": "Adicion",
+    "Restriccion": {
+      "Tipo": "PorCadaModelos",
+      "Maximo": 1,
+      "PorCada": 5
+    },
+    "Estado": "AdicionSinOrigen",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Relic Terminator Sergeant",
+        "Minimo": 1,
+        "Maximo": 1,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "AdicionSinOrigen",
+        "Faltantes": [],
+        "Flexiones": []
+      },
+      {
+        "Modelo": "Relic Terminators",
+        "Minimo": 4,
+        "Maximo": 9,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "AdicionSinOrigen",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 10
+    }
+  },
+  {
+    "Unidad": "RELIC TERMINATOR SQUAD",
+    "Pagina": 132,
+    "ReglaOriginal": "Any number of models can each have their power fist replaced with 1 power weapon.",
+    "Sujeto": "models",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Relic Terminator Sergeant",
+        "Minimo": 1,
+        "Maximo": 1,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      },
+      {
+        "Modelo": "Relic Terminators",
+        "Minimo": 4,
+        "Maximo": 9,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 10
+    }
+  },
+  {
+    "Unidad": "RELIC TERMINATOR SQUAD",
+    "Pagina": 132,
+    "ReglaOriginal": "Any number of models can each have their combi-bolter and power fist replaced with 1 twin lightning claws.",
+    "Sujeto": "models",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Relic Terminator Sergeant",
+        "Minimo": 1,
+        "Maximo": 1,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      },
+      {
+        "Modelo": "Relic Terminators",
+        "Minimo": 4,
+        "Maximo": 9,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 5,
+      "Maximo": 10
+    }
+  },
+  {
+    "Unidad": "BIKE SQUAD",
+    "Pagina": 138,
+    "ReglaOriginal": "Any number of Space Marine Bikers can each have their bolt pistol replaced with 1 Astartes chainsword.",
+    "Sujeto": "Space Marine Bikers",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Space Marine Bikers",
+        "Minimo": 2,
+        "Maximo": 5,
+        "DeclaracionUtilizada": "The Biker Sergeant and every Space Marine Biker",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 3,
+      "Maximo": 7
+    }
+  },
+  {
+    "Unidad": "BIKE SQUAD",
+    "Pagina": 138,
+    "ReglaOriginal": "Up to 2 Space Marine Bikers can each have their bolt pistol replaced with one of the following:",
+    "Sujeto": "Space Marine Bikers",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "MaximoEnUnidad",
+      "Maximo": 2,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Space Marine Bikers",
+        "Minimo": 2,
+        "Maximo": 5,
+        "DeclaracionUtilizada": "The Biker Sergeant and every Space Marine Biker",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 3,
+      "Maximo": 7
+    }
+  },
+  {
+    "Unidad": "ATTACK BIKE SQUAD",
+    "Pagina": 140,
+    "ReglaOriginal": "Any number of models can each have their heavy bolter replaced with 1 multi-melta.",
+    "Sujeto": "models",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Attack Bikes",
+        "Minimo": 1,
+        "Maximo": 3,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 1,
+      "Maximo": 3
+    }
+  },
+  {
+    "Unidad": "SCOUT BIKE SQUAD",
+    "Pagina": 142,
+    "ReglaOriginal": "Any number of models can each have their twin boltgun replaced with 1 Astartes grenade launcher.",
+    "Sujeto": "models",
+    "TipoOperacion": "Sustitucion",
+    "Restriccion": {
+      "Tipo": "CualquierCantidad",
+      "Maximo": null,
+      "PorCada": null
+    },
+    "Estado": "CoincideConInicial",
+    "ModelosElegibles": [
+      {
+        "Modelo": "Scout Biker Sergeant",
+        "Minimo": 1,
+        "Maximo": 1,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      },
+      {
+        "Modelo": "Scout Bikers",
+        "Minimo": 2,
+        "Maximo": 5,
+        "DeclaracionUtilizada": "Every model",
+        "Estado": "CoincideConInicial",
+        "Faltantes": [],
+        "Flexiones": []
+      }
+    ],
+    "TotalModelosUnidad": {
+      "Minimo": 3,
+      "Maximo": 6
+    }
+  }
+]

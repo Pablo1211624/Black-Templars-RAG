@@ -1,0 +1,62 @@
+[
+  {
+    "Unidad": "ASTRAEUS",
+    "Documento": "eng_08-06_warhammer40000_faction_pack_space-marines-nd2ezs5yzn-wxe2nf2ckk.pdf",
+    "Pagina": 56,
+    "Tipo": "PosibleEquipamientoDuplicado",
+    "TextoOriginal": "This model can be equipped with 1 ironhail heavy stubber.",
+    "Propuesta": null,
+    "Detalle": "La opción añade un elemento que figura en el equipamiento inicial.",
+    "Estado": "PendienteVerificacionPDF"
+  },
+  {
+    "Unidad": "VANGUARD VETERAN SQUAD",
+    "Documento": "eng_08-06_warhammer40000_faction_pack_space-marines-nd2ezs5yzn-wxe2nf2ckk.pdf",
+    "Pagina": 120,
+    "Tipo": "ReglaNoInterpretada",
+    "TextoOriginal": "Any number of models can each have their bolt pistol replaced one of the following:",
+    "Propuesta": "Any number of models can each have their bolt pistol replaced with one of the following:",
+    "Detalle": "La regla no coincide con los patrones seguros.",
+    "Estado": "PendienteVerificacionPDF"
+  },
+  {
+    "Unidad": "RELIC TERMINATOR SQUAD",
+    "Documento": "eng_08-06_warhammer40000_faction_pack_space-marines-nd2ezs5yzn-wxe2nf2ckk.pdf",
+    "Pagina": 132,
+    "Tipo": "ReglaNoInterpretada",
+    "TextoOriginal": "Any number of models can each have their power fist replaced with one 1 chainfist.",
+    "Propuesta": "Any number of models can each have their power fist replaced with 1 chainfist.",
+    "Detalle": "La regla no coincide con los patrones seguros.",
+    "Estado": "PendienteVerificacionPDF"
+  },
+  {
+    "Unidad": "MASTODON",
+    "Documento": "eng_08-06_warhammer40000_faction_pack_space-marines-nd2ezs5yzn-wxe2nf2ckk.pdf",
+    "Pagina": 211,
+    "Tipo": "ReglaNoInterpretada",
+    "TextoOriginal": "This model’s 2 lascannons can be replaced with on of the following:",
+    "Propuesta": "This model’s 2 lascannons can be replaced with one of the following:",
+    "Detalle": "La regla no coincide con los patrones seguros.",
+    "Estado": "PendienteVerificacionPDF"
+  },
+  {
+    "Unidad": "MASTODON",
+    "Documento": "eng_08-06_warhammer40000_faction_pack_space-marines-nd2ezs5yzn-wxe2nf2ckk.pdf",
+    "Pagina": 211,
+    "Tipo": "PosibleErrataNombreArma",
+    "TextoOriginal": "2 volite culverins",
+    "Propuesta": "2 volkite culverins",
+    "Detalle": "La tabla de armas utiliza volkite.",
+    "Estado": "PendienteVerificacionPDF"
+  },
+  {
+    "Unidad": "TARANTULA SENTRY BATTERY",
+    "Documento": "eng_08-06_warhammer40000_faction_pack_space-marines-nd2ezs5yzn-wxe2nf2ckk.pdf",
+    "Pagina": 215,
+    "Tipo": "ReglaNoInterpretada",
+    "TextoOriginal": "This model’s twin heavy bolter replaced with 1 twin lascannon.",
+    "Propuesta": "This model’s twin heavy bolter can be replaced with 1 twin lascannon.",
+    "Detalle": "La regla no coincide con los patrones seguros.",
+    "Estado": "PendienteVerificacionPDF"
+  }
+]

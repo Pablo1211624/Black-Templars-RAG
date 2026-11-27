@@ -1,0 +1,398 @@
+[
+  {
+    "Unidad": "LAND SPEEDER",
+    "Pagina": 30,
+    "ReglaOriginal": "This model can have its 1 onslaught gatling cannon replaced with 1 heavy flamer.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "ASTRAEUS",
+    "Pagina": 56,
+    "ReglaOriginal": "This model’s 2 Astraeus las-rippers can be replaced with 2 plasma eradicators.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "ASTRAEUS",
+    "Pagina": 56,
+    "ReglaOriginal": "This model’s twin heavy bolter can be replaced with 1 twin lascannon.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "THUNDERHAWK GUNSHIP",
+    "Pagina": 58,
+    "ReglaOriginal": "This model’s Thunderhawk heavy cannon can be replaced with 1 turbo-laser destructor.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "THUNDERHAWK GUNSHIP",
+    "Pagina": 58,
+    "ReglaOriginal": "This model’s Thunderhawk cluster bombs can be replaced with 1 hellstrike missile battery.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "MORTIS DREADNOUGHT",
+    "Pagina": 68,
+    "ReglaOriginal": "This model’s 2 twin heavy bolters can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "DEIMOS PREDATOR",
+    "Pagina": 70,
+    "ReglaOriginal": "This model’s plasma destroyer can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "CHAPLAIN VENERABLE DREADNOUGHT",
+    "Pagina": 72,
+    "ReglaOriginal": "This model’s storm bolter and Dreadnought combat weapon can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "CHAPLAIN VENERABLE DREADNOUGHT",
+    "Pagina": 72,
+    "ReglaOriginal": "This model’s assault cannon can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "VENERABLE DREADNOUGHT",
+    "Pagina": 82,
+    "ReglaOriginal": "This model’s assault cannon can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "VENERABLE DREADNOUGHT",
+    "Pagina": 82,
+    "ReglaOriginal": "This model’s storm bolter and Dreadnought combat weapon can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "RELIC RAZORBACK",
+    "Pagina": 92,
+    "ReglaOriginal": "This model’s twin heavy bolter can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "ANCIENT ON BIKE",
+    "Pagina": 98,
+    "ReglaOriginal": "This model’s bolt pistol can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "TECHMARINE ON BIKE",
+    "Pagina": 102,
+    "ReglaOriginal": "This model’s bolt pistol can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "TECHMARINE ON BIKE",
+    "Pagina": 102,
+    "ReglaOriginal": "This model’s Omnissian power axe can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "LIBRARIAN ON BIKE",
+    "Pagina": 104,
+    "ReglaOriginal": "This model’s bolt pistol can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "CAPTAIN ON BIKE",
+    "Pagina": 116,
+    "ReglaOriginal": "This model’s bolt pistol can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "CAPTAIN ON BIKE",
+    "Pagina": 116,
+    "ReglaOriginal": "This model’s Astartes chainsword can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "CAPTAIN ON BIKE",
+    "Pagina": 116,
+    "ReglaOriginal": "This model’s bolt pistol and Astartes chainsword can be replaced with 1 twin lightning claws.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "IRONCLAD DREADNOUGHT",
+    "Pagina": 122,
+    "ReglaOriginal": "This model’s seismic hammer can be replaced with 1 Dreadnought chainfist.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "IRONCLAD DREADNOUGHT",
+    "Pagina": 122,
+    "ReglaOriginal": "This model’s Dreadnought combat weapon and storm bolter can be replaced with 1 hurricane bolter.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "IRONCLAD DREADNOUGHT",
+    "Pagina": 122,
+    "ReglaOriginal": "This model’s storm bolter can be replaced with 1 heavy flamer.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "IRONCLAD DREADNOUGHT",
+    "Pagina": 122,
+    "ReglaOriginal": "This model’s meltagun can be replaced with 1 heavy flamer.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "LAND SPEEDER TORNADO",
+    "Pagina": 144,
+    "ReglaOriginal": "This model’s heavy bolter can be replaced with 1 multi-melta.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "LAND SPEEDER TORNADO",
+    "Pagina": 144,
+    "ReglaOriginal": "This model’s assault cannon can be replaced with 1 heavy flamer.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "LAND SPEEDER TYPHOON",
+    "Pagina": 146,
+    "ReglaOriginal": "This model’s heavy bolter can be replaced with 1 multi-melta.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "LIBRARIAN WITH JUMP PACK",
+    "Pagina": 148,
+    "ReglaOriginal": "This model’s bolt pistol can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "KRATOS",
+    "Pagina": 159,
+    "ReglaOriginal": "This model’s Kratos battle cannon can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "DEREDEO DREADNOUGHT",
+    "Pagina": 161,
+    "ReglaOriginal": "This model’s anvilus autocannon battery can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "DEREDEO DREADNOUGHT",
+    "Pagina": 161,
+    "ReglaOriginal": "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "LEVIATHAN DREADNOUGHT",
+    "Pagina": 165,
+    "ReglaOriginal": "This model’s 2 heavy flamers can be replaced with 2 twin volkite calivers.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "JAVELIN ATTACK SPEEDER",
+    "Pagina": 167,
+    "ReglaOriginal": "This model’s javelin missile launcher can be replaced with 2 lascannons.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "JAVELIN ATTACK SPEEDER",
+    "Pagina": 167,
+    "ReglaOriginal": "This model’s heavy bolter can be replaced with 1 multi-melta.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "DEATHSTORM DROP POD",
+    "Pagina": 169,
+    "ReglaOriginal": "This model’s deathstorm cannon array can be replaced with 1 deathstorm missile array.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "LAND RAIDER ACHILLES",
+    "Pagina": 173,
+    "ReglaOriginal": "This model’s 2 twin volkite culverins can be replaced with 2 twin multi-meltas.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "RAPIER CARRIER",
+    "Pagina": 185,
+    "ReglaOriginal": "This model’s quad heavy bolter can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "TERRAX-PATTERN TERMITE",
+    "Pagina": 193,
+    "ReglaOriginal": "This model’s 2 combi-bolters can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "STORM EAGLE GUNSHIP",
+    "Pagina": 197,
+    "ReglaOriginal": "This model’s twin heavy bolter can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "STORM EAGLE GUNSHIP",
+    "Pagina": 197,
+    "ReglaOriginal": "This model’s 2 twin hellstrike missile launchers can be replaced with 2 twin lascannons.",
+    "Estado": "CoincidePorAliasDocumentado",
+    "Faltantes": [],
+    "AliasUtilizados": [
+      {
+        "NombreRegla": "twin hellstrike missile launchers",
+        "NombreInicial": "twin hellstrike launchers",
+        "Cantidad": 2
+      }
+    ]
+  },
+  {
+    "Unidad": "FIRE RAPTOR GUNSHIP",
+    "Pagina": 199,
+    "ReglaOriginal": "This model’s 2 twin hellstrike missile launchers can be replaced with 2 twin lascannons.",
+    "Estado": "CoincidePorAliasDocumentado",
+    "Faltantes": [],
+    "AliasUtilizados": [
+      {
+        "NombreRegla": "twin hellstrike missile launchers",
+        "NombreInicial": "twin hellstrike launchers",
+        "Cantidad": 2
+      }
+    ]
+  },
+  {
+    "Unidad": "FIRE RAPTOR GUNSHIP",
+    "Pagina": 199,
+    "ReglaOriginal": "This model’s 2 twin autocannons can be replaced with 2 quad heavy bolters.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "SPARTAN",
+    "Pagina": 205,
+    "ReglaOriginal": "This model’s 2 quad lascannons can be replaced with 2 laser destroyers.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "SPARTAN",
+    "Pagina": 205,
+    "ReglaOriginal": "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "FELLBLADE",
+    "Pagina": 207,
+    "ReglaOriginal": "This model’s 2 quad lascannons can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "FELLBLADE",
+    "Pagina": 207,
+    "ReglaOriginal": "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "FALCHION",
+    "Pagina": 209,
+    "ReglaOriginal": "This model’s 2 quad lascannons can be replaced with 2 laser destroyers.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "FALCHION",
+    "Pagina": 209,
+    "ReglaOriginal": "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer.",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "MASTODON",
+    "Pagina": 211,
+    "ReglaOriginal": "This model’s 2 heavy flamers can be replaced with one of the following:",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  }
+]

@@ -1,0 +1,793 @@
+{
+  "ASSAULT_5_un_eviscerator": {
+    "Unidad": "ASSAULT SQUAD",
+    "Estado": "Completada",
+    "Motivo": null,
+    "InventarioInicial": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "InventarioFinal": {
+      "M1": {
+        "bolt pistol": 1,
+        "eviscerator": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "ModeloId": "M1",
+        "IndiceRegla": 3,
+        "Fuente": "Restricciones",
+        "IndiceAlternativa": 0,
+        "ReglaOriginal": "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with 1 eviscerator.",
+        "AlternativaElegida": "1 eviscerator",
+        "Consumido": {
+          "astartes chainsword": 1
+        },
+        "Anadido": {
+          "eviscerator": 1
+        },
+        "InventarioTrasPaso": {
+          "bolt pistol": 1,
+          "eviscerator": 1
+        },
+        "UsosReglaEnUnidad": 1,
+        "LimiteReglaEnUnidad": 1
+      }
+    ],
+    "ReversionAplicada": false,
+    "Alcance": "Solo reglas grupales interpretadas y cantidad de equipo; no certifica legalidad"
+  },
+  "ASSAULT_5_dos_eviscerators": {
+    "Unidad": "ASSAULT SQUAD",
+    "Estado": "Rechazada",
+    "Motivo": "LimiteSuperado",
+    "InventarioInicial": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "InventarioFinal": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "ModeloId": "M1",
+        "IndiceRegla": 3,
+        "Fuente": "Restricciones",
+        "IndiceAlternativa": 0,
+        "ReglaOriginal": "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with 1 eviscerator.",
+        "AlternativaElegida": "1 eviscerator",
+        "Consumido": {
+          "astartes chainsword": 1
+        },
+        "Anadido": {
+          "eviscerator": 1
+        },
+        "InventarioTrasPaso": {
+          "bolt pistol": 1,
+          "eviscerator": 1
+        },
+        "UsosReglaEnUnidad": 1,
+        "LimiteReglaEnUnidad": 1
+      },
+      {
+        "Paso": 2,
+        "Estado": "Rechazado",
+        "ModeloId": "M2",
+        "IndiceRegla": 3,
+        "Fuente": "Restricciones",
+        "Motivo": "LimiteSuperado"
+      }
+    ],
+    "ReversionAplicada": true,
+    "Alcance": "Solo reglas grupales interpretadas y cantidad de equipo; no certifica legalidad"
+  },
+  "ASSAULT_10_dos_eviscerators": {
+    "Unidad": "ASSAULT SQUAD",
+    "Estado": "Completada",
+    "Motivo": null,
+    "InventarioInicial": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M5": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M6": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M7": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M8": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M9": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "InventarioFinal": {
+      "M1": {
+        "bolt pistol": 1,
+        "eviscerator": 1
+      },
+      "M2": {
+        "bolt pistol": 1,
+        "eviscerator": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M5": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M6": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M7": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M8": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M9": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "ModeloId": "M1",
+        "IndiceRegla": 3,
+        "Fuente": "Restricciones",
+        "IndiceAlternativa": 0,
+        "ReglaOriginal": "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with 1 eviscerator.",
+        "AlternativaElegida": "1 eviscerator",
+        "Consumido": {
+          "astartes chainsword": 1
+        },
+        "Anadido": {
+          "eviscerator": 1
+        },
+        "InventarioTrasPaso": {
+          "bolt pistol": 1,
+          "eviscerator": 1
+        },
+        "UsosReglaEnUnidad": 1,
+        "LimiteReglaEnUnidad": 2
+      },
+      {
+        "Paso": 2,
+        "Estado": "Aplicado",
+        "ModeloId": "M2",
+        "IndiceRegla": 3,
+        "Fuente": "Restricciones",
+        "IndiceAlternativa": 0,
+        "ReglaOriginal": "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with 1 eviscerator.",
+        "AlternativaElegida": "1 eviscerator",
+        "Consumido": {
+          "astartes chainsword": 1
+        },
+        "Anadido": {
+          "eviscerator": 1
+        },
+        "InventarioTrasPaso": {
+          "bolt pistol": 1,
+          "eviscerator": 1
+        },
+        "UsosReglaEnUnidad": 2,
+        "LimiteReglaEnUnidad": 2
+      }
+    ],
+    "ReversionAplicada": false,
+    "Alcance": "Solo reglas grupales interpretadas y cantidad de equipo; no certifica legalidad"
+  },
+  "ASSAULT_5_hasta_dos": {
+    "Unidad": "ASSAULT SQUAD",
+    "Estado": "Completada",
+    "Motivo": null,
+    "InventarioInicial": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "InventarioFinal": {
+      "M1": {
+        "close combat weapon": 1,
+        "flamer": 1
+      },
+      "M2": {
+        "close combat weapon": 1,
+        "meltagun": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "ModeloId": "M1",
+        "IndiceRegla": 2,
+        "Fuente": "Restricciones",
+        "IndiceAlternativa": 1,
+        "ReglaOriginal": "Up to 2 Assault Marines can each have their bolt pistol and Astartes chainsword replaced with one of the following:",
+        "AlternativaElegida": "1 flamer and 1 close combat weapon",
+        "Consumido": {
+          "bolt pistol": 1,
+          "astartes chainsword": 1
+        },
+        "Anadido": {
+          "flamer": 1,
+          "close combat weapon": 1
+        },
+        "InventarioTrasPaso": {
+          "close combat weapon": 1,
+          "flamer": 1
+        },
+        "UsosReglaEnUnidad": 1,
+        "LimiteReglaEnUnidad": 2
+      },
+      {
+        "Paso": 2,
+        "Estado": "Aplicado",
+        "ModeloId": "M2",
+        "IndiceRegla": 2,
+        "Fuente": "Restricciones",
+        "IndiceAlternativa": 2,
+        "ReglaOriginal": "Up to 2 Assault Marines can each have their bolt pistol and Astartes chainsword replaced with one of the following:",
+        "AlternativaElegida": "1 meltagun and 1 close combat weapon",
+        "Consumido": {
+          "bolt pistol": 1,
+          "astartes chainsword": 1
+        },
+        "Anadido": {
+          "meltagun": 1,
+          "close combat weapon": 1
+        },
+        "InventarioTrasPaso": {
+          "close combat weapon": 1,
+          "meltagun": 1
+        },
+        "UsosReglaEnUnidad": 2,
+        "LimiteReglaEnUnidad": 2
+      }
+    ],
+    "ReversionAplicada": false,
+    "Alcance": "Solo reglas grupales interpretadas y cantidad de equipo; no certifica legalidad"
+  },
+  "ASSAULT_sargento_garras": {
+    "Unidad": "ASSAULT SQUAD",
+    "Estado": "Completada",
+    "Motivo": null,
+    "InventarioInicial": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "InventarioFinal": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "twin lightning claws": 1
+      }
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "ModeloId": "S1",
+        "IndiceRegla": 0,
+        "Fuente": "Compuestas",
+        "IndiceAlternativa": 0,
+        "ReglaOriginal": "The Assault Sergeant can do one of the following:",
+        "AlternativaElegida": "Replace its bolt pistol and Astartes chainsword with 1 twin lightning claws.",
+        "Consumido": {
+          "bolt pistol": 1,
+          "astartes chainsword": 1
+        },
+        "Anadido": {
+          "twin lightning claws": 1
+        },
+        "InventarioTrasPaso": {
+          "twin lightning claws": 1
+        },
+        "UsosReglaEnUnidad": 1,
+        "LimiteReglaEnUnidad": 1
+      }
+    ],
+    "ReversionAplicada": false,
+    "Alcance": "Solo reglas grupales interpretadas y cantidad de equipo; no certifica legalidad"
+  },
+  "ASSAULT_sargento_escudo": {
+    "Unidad": "ASSAULT SQUAD",
+    "Estado": "Completada",
+    "Motivo": null,
+    "InventarioInicial": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "InventarioFinal": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "astartes shield": 1,
+        "bolt pistol": 1
+      }
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "ModeloId": "S1",
+        "IndiceRegla": 0,
+        "Fuente": "Compuestas",
+        "IndiceAlternativa": 1,
+        "ReglaOriginal": "The Assault Sergeant can do one of the following:",
+        "AlternativaElegida": "Be equipped with 1 Astartes shield.",
+        "Consumido": {},
+        "Anadido": {
+          "astartes shield": 1
+        },
+        "InventarioTrasPaso": {
+          "astartes chainsword": 1,
+          "astartes shield": 1,
+          "bolt pistol": 1
+        },
+        "UsosReglaEnUnidad": 1,
+        "LimiteReglaEnUnidad": 1
+      }
+    ],
+    "ReversionAplicada": false,
+    "Alcance": "Solo reglas grupales interpretadas y cantidad de equipo; no certifica legalidad"
+  },
+  "ASSAULT_sargento_ambas": {
+    "Unidad": "ASSAULT SQUAD",
+    "Estado": "Rechazada",
+    "Motivo": "ReglaYaUtilizadaPorModelo",
+    "InventarioInicial": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "InventarioFinal": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "ModeloId": "S1",
+        "IndiceRegla": 0,
+        "Fuente": "Compuestas",
+        "IndiceAlternativa": 1,
+        "ReglaOriginal": "The Assault Sergeant can do one of the following:",
+        "AlternativaElegida": "Be equipped with 1 Astartes shield.",
+        "Consumido": {},
+        "Anadido": {
+          "astartes shield": 1
+        },
+        "InventarioTrasPaso": {
+          "astartes chainsword": 1,
+          "astartes shield": 1,
+          "bolt pistol": 1
+        },
+        "UsosReglaEnUnidad": 1,
+        "LimiteReglaEnUnidad": 1
+      },
+      {
+        "Paso": 2,
+        "Estado": "Rechazado",
+        "ModeloId": "S1",
+        "IndiceRegla": 0,
+        "Fuente": "Compuestas",
+        "Motivo": "ReglaYaUtilizadaPorModelo"
+      }
+    ],
+    "ReversionAplicada": true,
+    "Alcance": "Solo reglas grupales interpretadas y cantidad de equipo; no certifica legalidad"
+  },
+  "ASSAULT_sargento_conflicto": {
+    "Unidad": "ASSAULT SQUAD",
+    "Estado": "Rechazada",
+    "Motivo": "OrigenInsuficiente",
+    "InventarioInicial": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "InventarioFinal": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "ModeloId": "S1",
+        "IndiceRegla": 1,
+        "Fuente": "Restricciones",
+        "IndiceAlternativa": 0,
+        "ReglaOriginal": "The Assault Sergeant’s Astartes chainsword can be replaced with one of the following:",
+        "AlternativaElegida": "1 power fist",
+        "Consumido": {
+          "astartes chainsword": 1
+        },
+        "Anadido": {
+          "power fist": 1
+        },
+        "InventarioTrasPaso": {
+          "bolt pistol": 1,
+          "power fist": 1
+        },
+        "UsosReglaEnUnidad": 1,
+        "LimiteReglaEnUnidad": 5
+      },
+      {
+        "Paso": 2,
+        "Estado": "Rechazado",
+        "ModeloId": "S1",
+        "IndiceRegla": 0,
+        "Fuente": "Compuestas",
+        "IndiceAlternativa": 0,
+        "Faltantes": {
+          "astartes chainsword": {
+            "Necesario": 1,
+            "Disponible": 0
+          }
+        },
+        "Motivo": "OrigenInsuficiente"
+      }
+    ],
+    "ReversionAplicada": true,
+    "Alcance": "Solo reglas grupales interpretadas y cantidad de equipo; no certifica legalidad"
+  },
+  "JUMP_sargento_garras": {
+    "Unidad": "ASSAULT SQUAD WITH JUMP PACKS",
+    "Estado": "Completada",
+    "Motivo": null,
+    "InventarioInicial": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      }
+    },
+    "InventarioFinal": {
+      "M1": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M2": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M3": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "M4": {
+        "astartes chainsword": 1,
+        "bolt pistol": 1
+      },
+      "S1": {
+        "twin lightning claws": 1
+      }
+    },
+    "Pasos": [
+      {
+        "Paso": 1,
+        "Estado": "Aplicado",
+        "ModeloId": "S1",
+        "IndiceRegla": 0,
+        "Fuente": "Compuestas",
+        "IndiceAlternativa": 0,
+        "ReglaOriginal": "The Assault Sergeant with Jump Pack can do one of the following:",
+        "AlternativaElegida": "Replace its bolt pistol and Astartes chainsword with 1 twin lightning claws.",
+        "Consumido": {
+          "bolt pistol": 1,
+          "astartes chainsword": 1
+        },
+        "Anadido": {
+          "twin lightning claws": 1
+        },
+        "InventarioTrasPaso": {
+          "twin lightning claws": 1
+        },
+        "UsosReglaEnUnidad": 1,
+        "LimiteReglaEnUnidad": 1
+      }
+    ],
+    "ReversionAplicada": false,
+    "Alcance": "Solo reglas grupales interpretadas y cantidad de equipo; no certifica legalidad"
+  }
+}

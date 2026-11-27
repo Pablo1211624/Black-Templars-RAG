@@ -1,0 +1,128 @@
+[
+  {
+    "Unidad": "COMPANY VETERANS ON BIKES",
+    "Pagina": 94,
+    "ReglaOriginal": "The Veteran Biker Sergeant’s bolt pistol can be replaced with one of the following:",
+    "Sujeto": "The Veteran Biker Sergeant",
+    "DeclaracionUtilizada": "Every model",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "COMPANY VETERANS ON BIKES",
+    "Pagina": 94,
+    "ReglaOriginal": "The Veteran Biker Sergeant’s Astartes chainsword can be replaced with one of the following:",
+    "Sujeto": "The Veteran Biker Sergeant",
+    "DeclaracionUtilizada": "Every model",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "ASSAULT SQUAD",
+    "Pagina": 124,
+    "ReglaOriginal": "The Assault Sergeant’s bolt pistol can be replaced with one of the following:",
+    "Sujeto": "The Assault Sergeant",
+    "DeclaracionUtilizada": "Every model",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "ASSAULT SQUAD",
+    "Pagina": 124,
+    "ReglaOriginal": "The Assault Sergeant’s Astartes chainsword can be replaced with one of the following:",
+    "Sujeto": "The Assault Sergeant",
+    "DeclaracionUtilizada": "Every model",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "ASSAULT SQUAD WITH JUMP PACKS",
+    "Pagina": 126,
+    "ReglaOriginal": "The Assault Sergeant with Jump Pack’s bolt pistol can be replaced with one of the following:",
+    "Sujeto": "The Assault Sergeant with Jump Pack",
+    "DeclaracionUtilizada": "Every model",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "ASSAULT SQUAD WITH JUMP PACKS",
+    "Pagina": 126,
+    "ReglaOriginal": "The Assault Sergeant with Jump Pack’s Astartes chainsword can be replaced with one of the following:",
+    "Sujeto": "The Assault Sergeant with Jump Pack",
+    "DeclaracionUtilizada": "Every model",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "COMMAND SQUAD",
+    "Pagina": 130,
+    "ReglaOriginal": "The Company Ancient’s bolt pistol can be replaced with one of the following:",
+    "Sujeto": "The Company Ancient",
+    "DeclaracionUtilizada": "The Company Ancient",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "RELIC TERMINATOR SQUAD",
+    "Pagina": 132,
+    "ReglaOriginal": "The Relic Terminator Sergeant’s combi-bolter can be replaced with one of the following:",
+    "Sujeto": "The Relic Terminator Sergeant",
+    "DeclaracionUtilizada": "Every model",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "SCOUT SNIPER SQUAD",
+    "Pagina": 134,
+    "ReglaOriginal": "1 Scout Sniper’s scout sniper rifle can be replaced with 1 missile launcher.",
+    "Sujeto": "1 Scout Sniper",
+    "DeclaracionUtilizada": "Every model",
+    "Estado": "CoincidePorAliasDocumentado",
+    "Faltantes": [],
+    "AliasUtilizados": [
+      {
+        "NombreRegla": "scout sniper rifle",
+        "NombreInicial": "sniper rifle",
+        "Cantidad": 1
+      }
+    ]
+  },
+  {
+    "Unidad": "BIKE SQUAD",
+    "Pagina": 138,
+    "ReglaOriginal": "The Biker Sergeant’s bolt pistol can be replaced with one of the following:",
+    "Sujeto": "The Biker Sergeant",
+    "DeclaracionUtilizada": "The Biker Sergeant and every Space Marine Biker",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "BIKE SQUAD",
+    "Pagina": 138,
+    "ReglaOriginal": "An Attack Bike’s heavy bolter can be replaced with 1 multi-melta.",
+    "Sujeto": "An Attack Bike",
+    "DeclaracionUtilizada": "An Attack Bike",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  },
+  {
+    "Unidad": "SCOUT BIKE SQUAD",
+    "Pagina": 142,
+    "ReglaOriginal": "The Scout Biker Sergeant’s bolt pistol can be replaced with one of the following:",
+    "Sujeto": "The Scout Biker Sergeant",
+    "DeclaracionUtilizada": "Every model",
+    "Estado": "CoincideConInicial",
+    "Faltantes": [],
+    "AliasUtilizados": []
+  }
+]

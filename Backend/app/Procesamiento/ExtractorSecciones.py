@@ -77,16 +77,53 @@ def ExtraerSecciones(Paginas, Unidad):
             Inicio = Indice + 1
             Final = Inicio
 
+            
             while Final < len(Lineas):
                 Actual = Lineas[Final]
 
-                if (
+                # Límites que ya reconocíamos.
+                LimiteNormal = (
                     IdentificarEncabezado(Actual) is not None
                     or Actual.casefold() == Unidad.casefold()
+                )
+
+                # Algunas reglas tienen títulos adicionales
+                # escritos completamente en mayúsculas.
+                TituloAdicional = (
+                    Encabezado == "UNIT COMPOSITION"
+                    and len(Actual) >= 6
+                    and Actual[0].isalpha()
+                    and Actual.isupper()
+                )
+
+                # Algunas aeronaves tienen una tabla de
+                # características sin el encabezado M al inicio.
+                TablaEspecial = (
+                    Encabezado == "DAMAGED"
+                    and Lineas[Final:Final + 5]
+                    == ["T", "SV", "W", "LD", "OC"]
+                )
+
+                # Notas independientes que aparecen después
+                # de ciertas reglas de daño.
+                NotaAdicional = (
+                    Encabezado == "DAMAGED"
+                    and Actual.startswith((
+                        "Before selecting targets",
+                        "*This model has",
+                    ))
+                )
+
+                if (
+                    LimiteNormal
+                    or TituloAdicional
+                    or TablaEspecial
+                    or NotaAdicional
                 ):
                     break
 
                 Final += 1
+
 
             Resultado[SECCIONES[Encabezado]].append({
                 "Pagina": Pagina["Pagina"],

@@ -1,0 +1,82 @@
+[
+  {
+    "Unidad": "KRATOS",
+    "Pagina": 159,
+    "IndiceRegla": 0,
+    "ReglaOriginal": "2 of this model’s heavy bolters can be replaced with one of the following:",
+    "TipoRestriccion": "CantidadArmas",
+    "Estado": "CoincideConInicial",
+    "NombreOrigen": "heavy bolters",
+    "CantidadRequeridaPorAplicacion": 2,
+    "CantidadInicial": 4,
+    "FlexionUtilizada": null,
+    "FuentesPreviasPosibles": []
+  },
+  {
+    "Unidad": "KRATOS",
+    "Pagina": 159,
+    "IndiceRegla": 1,
+    "ReglaOriginal": "2 of this model’s heavy bolters can be replaced with one of the following:",
+    "TipoRestriccion": "CantidadArmas",
+    "Estado": "CoincideConInicial",
+    "NombreOrigen": "heavy bolters",
+    "CantidadRequeridaPorAplicacion": 2,
+    "CantidadInicial": 4,
+    "FlexionUtilizada": null,
+    "FuentesPreviasPosibles": []
+  },
+  {
+    "Unidad": "RELIC CONTEMPTOR DREADNOUGHT",
+    "Pagina": 163,
+    "IndiceRegla": 0,
+    "ReglaOriginal": "Each of this model’s heavy plasma cannons can be replaced with one of the following:",
+    "TipoRestriccion": "CadaArma",
+    "Estado": "CoincideConInicial",
+    "NombreOrigen": "heavy plasma cannons",
+    "CantidadRequeridaPorAplicacion": 1,
+    "CantidadInicial": 2,
+    "FlexionUtilizada": null,
+    "FuentesPreviasPosibles": []
+  },
+  {
+    "Unidad": "RELIC CONTEMPTOR DREADNOUGHT",
+    "Pagina": 163,
+    "IndiceRegla": 1,
+    "ReglaOriginal": "Each of this model’s combi-bolters can be replaced with one of the following:",
+    "TipoRestriccion": "CadaArma",
+    "Estado": "DisponibleTrasSustitucionPrevia",
+    "NombreOrigen": "combi-bolters",
+    "CantidadRequeridaPorAplicacion": 1,
+    "CantidadInicial": 0,
+    "FlexionUtilizada": null,
+    "FuentesPreviasPosibles": [
+      {
+        "IndiceReglaOrigen": 0,
+        "ReglaOrigen": "Each of this model’s heavy plasma cannons can be replaced with one of the following:",
+        "Alternativa": "1 Dreadnought chainfist and 1 combi-bolter",
+        "CantidadIntroducidaPorAplicacion": 1,
+        "MaximoPotencial": 2
+      },
+      {
+        "IndiceReglaOrigen": 0,
+        "ReglaOrigen": "Each of this model’s heavy plasma cannons can be replaced with one of the following:",
+        "Alternativa": "1 Dreadnought combat weapon and 1 combi-bolter",
+        "CantidadIntroducidaPorAplicacion": 1,
+        "MaximoPotencial": 2
+      }
+    ]
+  },
+  {
+    "Unidad": "LEVIATHAN DREADNOUGHT",
+    "Pagina": 165,
+    "IndiceRegla": 0,
+    "ReglaOriginal": "Each of this model’s grav-flux bombards can be replaced with one of the following:",
+    "TipoRestriccion": "CadaArma",
+    "Estado": "CoincideConInicial",
+    "NombreOrigen": "grav-flux bombards",
+    "CantidadRequeridaPorAplicacion": 1,
+    "CantidadInicial": 2,
+    "FlexionUtilizada": null,
+    "FuentesPreviasPosibles": []
+  }
+]
